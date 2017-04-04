@@ -1,0 +1,46 @@
+@charset "UTF-8";
+html {
+	/*当处于标准模式时，body以html标签为高度参照，html标签才以窗口为参照，*/
+	/*设置了html,body{height:100%}获得窗口大小*/
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+}
+
+.box {
+	width: 400px;
+	height: 200px;
+	background-color: #ccc;
+	display: flex;
+	position: relative;
+	overflow: hidden;
+}
+
+.circle1 {
+	width: 100px;
+	height: 100px;
+	background-color: #fc0;
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left: -50px;
+}
+
+.circle2 {
+	width: 100px;
+	height: 100px;
+	background-color: #fc0;
+	border-radius: 50%;
+	position: absolute;
+	top: 150px;
+	left: 350px;
+}
