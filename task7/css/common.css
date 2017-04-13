@@ -1,0 +1,183 @@
+/*头部开始*/
+.public-container {
+	width: 1280px;
+	margin: 0 auto;
+}
+
+.public-header {
+	height: 56px;
+	line-height: 56px;
+}
+
+.public-header .public-header-left {
+	float: left;
+	margin-left: 59px;
+}
+
+.public-header .public-header-left .header-logo {
+	float: left;
+	margin-top: 13px;
+	width: 31px;
+	height: 31px;
+	background: url("../images/header-logo.png") no-repeat;
+}
+
+.public-header .public-header-left .header-title {
+	float: left;
+	margin-left: 11px;
+	font-size: 21px;
+	color: #393a3a;
+}
+
+.public-header .public-header-right {
+	float: right;
+	margin-right: 59px;
+}
+
+.public-header .public-header-right a {
+	color: #83868d;
+	width: 64px;
+	text-align: center;
+}
+
+.public-header .public-header-right a:hover {
+	color: #e9605e;
+	/*text-decoration: underline;*/
+	padding-bottom: 22px;
+	border-bottom: 4px solid #e9605e;
+}
+
+.public-header .public-header-right .header-list {
+	margin-top: 16px;
+	font-size: 14px;
+}
+
+.public-header .public-header-right .header-list-item {
+	float: right;
+	margin-left: 46px;
+	line-height: 17px;
+}
+
+.public-header .public-header-right .item-login {
+	float: right;
+	margin-left: 31px;
+	line-height: 17px;
+}
+
+.public-header-right .item-login .login-text {
+	float: right;
+	padding-right: 8px;
+	display: block;
+	color: #e9605e;
+}
+
+.public-header-right .item-login .login-logo {
+	float: right;
+	margin-right: 5px;
+	width: 14px;
+	height: 17px;
+	background: url("../images/header-login-logo.png") no-repeat;
+}
+
+/*尾部开始*/
+.public-footer {
+	height: 413px;
+	color: #e7e7e7;
+}
+
+.public-footer .public-footer-top {
+	height: 355px;
+	background-color: #32353e;
+	overflow: hidden;
+}
+
+.public-footer .public-footer-top .public-footer-container {
+	margin: 88px auto 0 auto;
+	width: 510px;
+	height: 195px;
+}
+
+.public-footer-top .public-footer-container h3 {
+	font-size: 21px;
+	line-height: 31px;
+	text-align: center;
+}
+
+.public-footer-top .public-footer-container p {
+	font-size: 12px;
+	line-height: 18px;
+	font-family: "宋体";
+	text-align: center;
+}
+
+.public-footer-top .public-footer-container .text-box {
+	margin-top: 30px;
+	width: 430px;
+	height: 40px;
+	border: 0 none;
+	font-family: "微软雅黑 Regular";
+}
+
+.public-footer-top .public-footer-container .btn-submit {
+	margin-top: 2px;
+	width: 80px;
+	height: 40px;
+	border: 0 none;
+	color: #e7e7e7;
+	font-family: "微软雅黑 Regular";
+	background-color: #707278;
+}
+
+.public-footer-top .public-footer-container .contact {
+	margin-top: 37px;
+	margin-left: 165px;
+}
+
+.public-footer-container .contact .contact-item-qq {
+	float: left;
+	margin-right: 28px;
+	width: 24px;
+	height: 25px;
+	background: url("../images/qq.png") no-repeat;
+}
+
+.public-footer-container .contact .contact-item-microblog {
+	float: left;
+	margin-right: 28px;
+	width: 29px;
+	height: 25px;
+	background: url("../images/microblog.png") no-repeat;
+}
+
+.public-footer-container .contact .contact-item-twitter {
+	float: left;
+	margin-right: 28px;
+	width: 29px;
+	height: 25px;
+	background: url("../images/twitter.png") no-repeat;
+}
+
+.public-footer-container .contact .contact-item-internet {
+	float: left;
+	width: 24px;
+	height: 25px;
+	background: url("../images/internet.png") no-repeat;
+}
+
+.public-footer .public-footer-bottom {
+	height: 58px;
+	background-color: #303039;
+}
+
+.public-footer .public-footer-bottom .footer-bottom-left {
+	float: left;
+	margin-top: 30px;
+	margin-left: 100px;
+}
+
+.public-footer .public-footer-bottom .footer-bottom-right {
+	float: right;
+	margin-top: 30px;
+	margin-right: 40px;
+	color: #fff;
+}

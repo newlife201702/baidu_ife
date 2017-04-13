@@ -1,0 +1,679 @@
+/*banner部分开始*/
+.index-banner {
+	margin-top: 3px;
+	width: 1280px;
+	height: 646px;
+	background: url("../images/index-banner.jpg") no-repeat;
+	position: relative;
+}
+
+.index-banner .index-banner-box {
+	position: absolute;
+	top: 230px;
+	left: 116px;
+}
+
+.index-banner .index-banner-box .index-banner-title {
+	font-size: 60px;
+	font-family: "微软雅黑 Regular";
+	color: #fff;
+	line-height: 90px;
+}
+
+.index-banner .index-banner-box .index-banner-text {
+	font-size: 21px;
+	font-family: "微软雅黑 Regular";
+	color: #e7e7e7;
+	line-height: 31px;
+}
+
+.index-banner .index-banner-box .index-banner-btn {
+	margin-top: 66px;
+	width: 330px;
+	height: 64px;
+	background-color: #e74f4d;
+	color: #fff;
+	font-size: 30px;
+	font-family: "微软雅黑 Regular";
+	text-align: center;
+	line-height: 64px;
+}
+
+/*介绍开始*/
+.index-introduction {
+	font-family: "黑体 Regular";
+	color: #b5b5b5;
+}
+
+.index-introduction .index-introduction-list {
+	margin: 94px 80px 0 0;
+}
+
+.index-introduction .index-introduction-item {
+	float: left;
+	width: 236px;
+	height: 200px;
+}
+
+.index-introduction .index-introduction-item1 {
+	/*width: 155px;*/
+	margin-left: 90px;
+	/*margin-right: 80px;*/
+}
+
+.index-introduction .index-introduction-item2 {
+	margin-left: 94px;
+
+}
+
+.index-introduction .index-introduction-item3 {
+	margin-left: 72px;
+}
+
+.index-introduction .index-introduction-item4 {
+	margin-left: 71px;
+	width: 155px;
+}
+
+.index-introduction .index-introduction-item .introduction-item-logo {
+	margin-left: 57px;
+	margin-bottom: 41px;
+}
+
+.index-introduction .index-introduction-item .item-logo1 {
+	width: 42px;
+	height: 42px;
+	background: url("../images/list-item1.png") no-repeat;
+}
+
+.index-introduction .index-introduction-item .item-logo2 {
+	width: 35px;
+	height: 40px;
+	background: url("../images/list-item2.png") no-repeat;
+}
+
+.index-introduction .index-introduction-item .item-logo3 {
+	width: 35px;
+	height: 40px;
+	background: url("../images/list-item3.png") no-repeat;	
+}
+
+.index-introduction .index-introduction-item .item-logo4 {
+	width: 41px;
+	height: 40px;
+	background: url("../images/list-item4.png") no-repeat;	
+}
+
+.index-introduction .index-introduction-item .introduction-item-text {
+	height: 52px;
+	font-size: 14px;
+	text-align: left;
+	border-right: 2px solid #bbbbbb;
+	padding-right: 80px;
+}
+
+.index-introduction .index-introduction-item .introduction-item-specialtext {
+	border: 0 none;
+	padding-right: 0;
+}
+
+/*banner1开始*/
+.index-new-world {
+	height: 360px;
+	background-color: #ededec;
+	overflow: hidden;
+}
+
+.index-new-world .new-world-logo {
+	margin-top: 90px;
+	margin-left: 596px;
+	width: 91px;
+	height: 92px;
+	background: url("../images/newworld-logo.png") no-repeat;
+}
+
+.index-new-world .new-world-text {
+	margin-top: 50px;
+	font-size: 53.59px;
+	font-family: "黑体 Regular";
+	color: #a1a1a1;
+	text-align: center;
+}
+
+/*banner2开始*/
+.index-city {
+	font-family: "微软雅黑 Regular";
+	width: 1280px;
+	height: 341px;
+	background: url("../images/index-banner2.jpg") no-repeat;
+	overflow: hidden;
+}
+
+.index-city .city-header {
+	margin: 53px auto 54px auto;
+	width: 336px;
+	height: 64px;
+}
+
+.index-city .city-header .city-title {
+	font-size: 21px;
+	color: #fff;
+	text-align: center;
+}
+
+.index-city .city-header .city-line {
+	margin-top: 10px;
+	margin-left: 153px;
+	width: 30px;
+	height: 3px;
+	background-color: #fff;
+}
+
+.index-city .city-header .city-text {
+	margin-top: 20px;
+	font-size: 12px;
+	color: #fff;
+}
+
+.index-city .city-list {
+	margin-top: 52px;
+	margin-left: 126px;
+}
+
+.index-city .city-list .city-item {
+	float: left;
+	margin-right: 30px;
+	position: relative;
+}
+
+.index-city .city-list .city-item a {
+	width: 236px;
+	height: 36px;
+	line-height: 36px;
+	background: #be4e48;
+	color: #fff;
+	font-size: 14px;
+	font-family: "微软雅黑 Regular";
+	white-space: pre;
+	text-align: center;
+}
+
+.index-city .city-list .city-item-btn a {
+
+}
+
+.city-list .city-item .country {
+	width: 236px;
+	height: 36px;
+	color: #c1c3c3;
+}
+
+.city-list .city-item .option-style {
+	background: #e4e3e5;
+	color: #89898a;
+	white-space: pre;
+	padding-left: 24px;
+}
+
+.city-list .city-item .option-style:hover {
+	/*background: #bf4f49;*/
+	/*border: 1px solid #d79995;*/
+}
+
+.city-list .city-item .city-item-box {
+	width: 18px;
+	height: 18px;
+	background: #bf4f49;
+	position: absolute;
+	top: 9px;
+	right: 8px;
+}
+
+.city-list .city-item .city-item-logo {
+	width: 13px;
+	height: 7px;
+	background: url("../images/select-logo.png") no-repeat;
+	position: absolute;
+	top: 15px;
+	right: 11px;
+}
+
+/*活动部分开始*/
+.public-activity-container {
+	width: 1280px;
+	margin: 0 auto;
+	background: #f7f7f7;
+}
+
+.index-activity {
+	padding-top: 100px;
+	padding-bottom: 114px;
+	margin-left: 147px;
+	/*width: 1280px;*/
+	height: 390px;
+}
+
+.index-activity .activity-item {
+	float: left;
+	margin-right: 36px;
+	width: 220px;
+	height: 388px;
+}
+
+.index-activity .activity-item .activity-img-box {
+	height: 336px;
+	border: 1px solid #dcdcdc;
+	background: #fff;
+}
+
+.activity-item .activity-img-box .activity-img {
+	margin-top: 10px;
+	margin-left: 8px;
+	width: 200px;
+	height: 312px;
+	background: url(../images/gallery.png) no-repeat;
+}
+
+.activity-item .activity-img-box .activity-img2 {
+	background-position: -256px -52px;
+}
+
+.activity-item .activity-img-box .activity-img3 {
+	background-position: -512px 0;
+}
+
+.activity-item .activity-img-box .activity-img4 {
+	background-position: -767px 0;
+}
+
+.index-activity .activity-item .activity-text {
+	margin-top: 13px;
+}
+
+.index-activity .activity-item .activity-text3 {
+	margin-bottom: 8px;
+}
+
+.activity-item .activity-txt {
+	font-family: "微软雅黑 Regular";
+	font-size: 14px;
+	line-height: 14px;
+	color: #575858;
+	text-align: center;
+}
+
+.activity-item .activity-text3 .activity-txt3 {
+	font-size: 20px;
+	line-height: 20px;
+	white-space: pre;
+}
+
+.activity-item .activity-inf {
+	margin-top: 12px;
+	font-size: 12px;
+	color: #9f9f9f;
+}
+
+/*文章部分开始*/
+.index-article {
+	/*margin-top: 114px;*/
+	height: 567px;
+}
+
+.index-article .article-left-img {
+	float: left;
+	width: 851px;
+	height: 567px;
+	background: url("../images/newworld.jpg") no-repeat;
+}
+
+.index-article .article-left-img .article-img-text {
+	margin: 0 auto;
+	margin-top: 132px;
+	font-family: "微软雅黑 Regular";
+	color: #fff;
+	text-align: center;
+}
+
+.article-left-img .article-img-text .article-box {
+	position: relative;
+	margin: 0 auto;
+	width: 851px;
+	height: 435px;
+}
+
+.article-left-img .article-img-text .article-box::after {
+	float: right;
+	margin-top: 137px;
+	content: "";
+	width: 0;
+	height: 0;
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent;
+	border-right: 25px solid #fff;
+}
+
+.article-left-img .article-img-text .article-img-title {
+	font-size: 50px;
+	width: 150px;
+	height: 50px;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -75px;
+}
+
+.article-left-img .article-img-text .article-img-theme {
+	margin-top: 12px;
+	font-size: 158px;
+	width: 632px;
+	height: 158px;
+	position: absolute;
+	top: 12px;
+	left: 50%;
+	margin-left: -316px;
+}
+
+.article-left-img .article-img-text .article-img-txt {
+	margin-top: 37px;
+	font-size: 22px;
+	width: 154px;
+	height: 44px;
+	line-height: 44px;
+	position: absolute;
+	top: 146px;
+	left: 50%;
+	margin-left: -77px;
+	text-align: left;
+}
+
+.index-article .article-right-content {
+	float: right;
+	margin-top: 164px;
+	width: 429px;
+	height: 403px;
+	text-align: center;
+}
+
+.index-article .article-right-content .article-content-header {
+	font-size: 20px;
+	font-family: "黑体 Regular";
+	color: #323333;
+}
+
+.article-right-content .article-content-header .red {
+	color: #e74f4d;
+}
+
+.index-article .article-right-content .article-content-body {
+	margin-top: 18px;
+	padding: 0 70px;
+	text-align: left;
+	font-size: 12px;
+	line-height: 22px;
+	font-family: "宋体";
+	color: #929293;
+}
+
+.index-article .article-right-content .article-btn {
+	width: 107px;
+	height: 35px;
+	line-height: 35px;
+	color: #eea9ab;
+	border: 2px solid #e4666a;
+	margin: 0 auto;
+	margin-top: 45px;
+}
+
+.index-article .article-right-content .article-dot-left {
+	margin: 0 auto;
+	/*margin-left: 186px;*/
+	margin-top: 26px;
+	width: 78px;
+	height: 12px;
+}
+
+.index-article .article-right-content .article-dot {
+	margin-right: 16px;
+	width: 12px;
+	height: 12px;
+	border: 1px solid #929293;
+	border-radius: 50%;
+	display: inline-block;
+	/*font-size: 0;*/
+}
+
+.index-article .article-right-content .article-dot-last {
+	margin-right: 0;
+}
+
+.index-article .article-right-content .article-dot-active {
+	background: #929293;
+}
+
+/*查看更多部分开始*/
+.index-more {
+	overflow: hidden;
+}
+
+.index-more .index-more-left {
+	float: left;
+	width: 425px;
+	height: 520px;
+	background: #e74f4d;
+	text-align: center;
+}
+
+.index-more .index-more-left .more-txt {
+	margin-top: 172px;
+	font-size: 21px;
+	line-height: 31px;
+	color: #fff;
+}
+
+.index-more .index-more-left .more-line {
+	margin: 0 auto;
+	margin-top: 20px;
+	width: 30px;
+	height: 2px;
+	background: #fff;
+}
+
+.index-more .index-more-left .more-btn {
+	margin: 0 auto;
+	margin-top: 26px;
+	width: 165px;
+	height: 42px;
+	line-height: 42px;
+	color: #fff;
+	border: 1px solid #fff;
+}
+
+.index-more .index-more-mid {
+	background: #fff;
+}
+
+.index-more .index-more-left .more-txt-mid {
+	color: #6d6e6e;
+}
+
+.index-more .index-more-left .more-line-mid {
+	background: #aaaaaa;
+}
+
+.index-more .index-more-left .more-btn-mid {
+	color: #eea9ab;
+	border-color: #e4666a;
+}
+
+.index-more .index-more-right {
+	float: left;
+	width: 429px;
+	height: 521px;
+	background: url(../images/newtime.jpg) no-repeat;
+}
+
+.index-more .index-more-right::after {
+	float: left;
+	margin-top: 246px;
+	content: "";
+	width: 0;
+	height: 0;
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent;
+	border-left: 25px solid #fff;
+}
+
+/*志愿者部分开始*/
+.index-volunteer {
+	height: 750px;
+}
+
+.index-volunteer .index-volunteer-top {
+	margin-top: 118px;
+	/*width: 416px;*/
+	height: 76px;
+	/*margin: 0 auto;*/
+	text-align: center;
+}
+
+.index-volunteer .index-volunteer-top .top-title {
+	font-size: 21px;
+	color: #6d6e6e;
+}
+
+.index-volunteer .index-volunteer-top .top-line {
+	margin: 0 auto;
+	margin-top: 10px;
+	width: 30px;
+	height: 2px;
+	background: #eb6664;
+}
+
+.index-volunteer .index-volunteer-top .top-txt {
+	margin-top: 14px;
+	font-family: "微软雅黑 Regular";
+	font-size: 12px;
+	color: #b7b7b7;
+}
+
+.index-volunteer .index-volunteer-bottom {
+	margin-top: 107px;
+	/*overflow: hidden;*/
+}
+
+.index-volunteer .index-volunteer-bottom .volunteer-bottom-left {
+	margin-left: 139px;
+	width: 288px;
+	float: left;
+}
+
+.index-volunteer-bottom .volunteer-bottom-left .vol-left-title1 {
+	float: left;
+	font-size: 14px;
+	color: #807c7c;
+}
+
+.index-volunteer-bottom .volunteer-bottom-left .vol-left-title2 {
+	margin-top: 40px;
+}
+
+.index-volunteer-bottom .volunteer-bottom-left .vol-left-title3 {
+	margin-top: 40px;
+	width: 288px;
+}
+
+.index-volunteer-bottom .volunteer-bottom-left .vol-left-txt {
+	float: left;
+	margin-top: 30px;
+	font-size: 12px;
+	/*font-weight: 500;*/
+	line-height: 24px;
+	font-family: "宋体";
+	color: #a5a3a2;
+}
+
+.index-volunteer-bottom .volunteer-bottom-left .more-logo {
+	float: right;
+	font-size: 12px;
+	font-family: "宋体";
+	color: #a5a3a2;
+}
+
+.index-volunteer-bottom .volunteer-bottom-left .more-logo-last {
+	margin-top: 24px;
+}
+
+.index-volunteer-bottom .volunteer-bottom-left .more-logo::before {
+	content: "";
+	display: inline-block;
+	margin-right: 8px;
+	width: 10px;
+	height: 6px;
+	background: url(../images/more-logo.png) no-repeat;
+}
+
+.index-volunteer .index-volunteer-bottom .volunteer-bottom-right {
+	margin-top: -18px;/*弥补第一行单元格上方的padding把单元格向下挤了18像素*/
+	margin-left: 76px;
+	width: 641px;
+	height: 283px;
+	float: left;
+}
+
+.index-volunteer-bottom .volunteer-bottom-right table {
+	width: 100%;
+	/*height: 100%;*/
+	border: 0;
+	font-family: "宋体";
+	font-size: 12px;
+	font-weight: 600;
+	color: #837f80;
+}
+
+.index-volunteer-bottom .volunteer-bottom-right td {
+	width: 310px;
+	height: 16px;
+	line-height: 16px;
+	background: #ededef;
+}
+
+.index-volunteer-bottom .volunteer-bottom-right .input-text {
+	width: 88%;
+	height: 100%;
+	padding: 18px;
+	border: 0;
+	background: #ededef;
+}
+
+/*.index-volunteer-bottom .volunteer-bottom-right .input-text:focus {
+	border: 2px solid #ededef;
+}*/
+
+.index-volunteer-bottom .volunteer-bottom-right .textarea {
+	margin-left: 18px;
+	padding-left: 18px;
+	padding-top: 10px;
+	width: 588px;
+	height: 120px;
+	line-height: 18px;	
+	border: 0;
+	background: #ededef;
+}
+
+.index-volunteer-bottom .volunteer-bottom-right .input-submit {
+	margin-top: 18px;
+	margin-left: 18px;
+	width: 603px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+	border: 0;
+	background: #ededef;
+	text-align: center;
+}
+
+
+
+
+
